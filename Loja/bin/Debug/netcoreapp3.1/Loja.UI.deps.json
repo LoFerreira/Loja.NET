@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Loja.UI/1.0.0": {
+        "dependencies": {
+          "Loja.BLL": "1.0.0",
+          "Loja.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Loja.UI.dll": {}
+        }
+      },
+      "Loja.BLL/1.0.0": {
+        "runtime": {
+          "Loja.BLL.dll": {}
+        }
+      },
+      "Loja.DTO/1.0.0": {
+        "runtime": {
+          "Loja.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Loja.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Loja.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Loja.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

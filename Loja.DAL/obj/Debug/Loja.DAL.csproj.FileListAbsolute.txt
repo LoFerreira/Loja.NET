@@ -1,0 +1,12 @@
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\Loja.DAL.dll
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\Loja.DAL.pdb
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\Loja.DTO.dll
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\Loja.DTO.pdb
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\obj\Debug\Loja.DAL.csprojAssemblyReference.cache
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\obj\Debug\Loja.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\obj\Debug\Loja.DAL.csproj.CopyComplete
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\obj\Debug\Loja.DAL.dll
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\obj\Debug\Loja.DAL.pdb
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\Loja.DAL.dll.config
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Felicio\source\repos\Loja\Loja.DAL\bin\Debug\System.Data.SqlClient.xml

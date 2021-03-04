@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.UI\\Loja.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj",
+        "projectName": "Loja.BLL",
+        "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DAL\\Loja.DAL.csproj": {
+                "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DAL\\Loja.DAL.csproj"
+              },
+              "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj": {
+                "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DAL\\Loja.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DAL\\Loja.DAL.csproj",
+        "projectName": "Loja.DAL",
+        "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DAL\\Loja.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj": {
+                "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj",
+        "projectName": "Loja.DTO",
+        "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.UI\\Loja.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.UI\\Loja.UI.csproj",
+        "projectName": "Loja.UI",
+        "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.UI\\Loja.UI.csproj",
+        "packagesPath": "C:\\Users\\Felicio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Felicio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj": {
+                "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj"
+              },
+              "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj": {
+                "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

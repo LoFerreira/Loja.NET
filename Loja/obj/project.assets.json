@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Loja.BLL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Loja.DAL": "1.0.0",
+          "Loja.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Loja.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loja.BLL.dll": {}
+        }
+      },
+      "Loja.DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Loja.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Loja.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loja.DAL.dll": {}
+        }
+      },
+      "Loja.DTO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Loja.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loja.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Loja.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Loja.BLL/Loja.BLL.csproj",
+      "msbuildProject": "../Loja.BLL/Loja.BLL.csproj"
+    },
+    "Loja.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Loja.DAL/Loja.DAL.csproj",
+      "msbuildProject": "../Loja.DAL/Loja.DAL.csproj"
+    },
+    "Loja.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Loja.DTO/Loja.DTO.csproj",
+      "msbuildProject": "../Loja.DTO/Loja.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Loja.BLL >= 1.0.0",
+      "Loja.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Felicio\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja\\Loja.UI.csproj",
+      "projectName": "Loja.UI",
+      "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja\\Loja.UI.csproj",
+      "packagesPath": "C:\\Users\\Felicio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Felicio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj": {
+              "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.BLL\\Loja.BLL.csproj"
+            },
+            "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj": {
+              "projectPath": "C:\\Users\\Felicio\\source\\repos\\Loja\\Loja.DTO\\Loja.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
