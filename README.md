@@ -3,8 +3,8 @@
 ## Projeto de criação de loja com windows forms utilizando MDI Parent em .NET para aperfeiçoamento na linguagem C#.
 
 MDI Pai:
-![](Screenshots/MDIPai.PNG)
+![](/Screenshots/MDIPai.PNG)
 
-MDI Cadastro
-![](Screenshots/MDICadastro.PNG)
+MDI Cadastro:
+![](/Screenshots/MDICadastro.PNG)
 
